@@ -1,0 +1,29 @@
+{
+  "author": "@sakaruk/shareasale-report",
+  "name": "shareasale-report",
+  "description": "ShareASale Performance Marketing Network Reports",
+  "keywords": [
+    "shareasale",
+    "report"
+  ],
+  "version": "1.0.0",
+  "main": "./lib/shareasale",
+  "dependencies": {
+    "request": "*",
+    "xml2json": "*",
+    "crypto": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/sakaruk/shareasale-report/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sakaruk/shareasale-report"
+  },
+  "scripts": {
+    "test": "mocha --timeout 100000 -R spec"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
