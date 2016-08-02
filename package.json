@@ -6,11 +6,11 @@
     "shareasale",
     "report"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./lib/shareasale",
   "dependencies": {
     "request": "*",
-    "xml2json": "*",
+    "xml2json-light": "*",
     "crypto": "*"
   },
   "bugs": {
